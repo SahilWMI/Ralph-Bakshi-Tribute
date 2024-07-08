@@ -23,7 +23,7 @@ h1 {
 #info-para {
     font-family: Verdana, sans-serif;
     text-align: center;
-    font-size: 0.9375rem;
+    font-size: 16px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 1rem;
@@ -36,4 +36,24 @@ h2 {
 
 main {
     background-color: hsla(34, 57%, 70%, 0.133);
+}
+
+@media screen and (max-width: 768px) {
+    #info-para {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #info-para {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
 }
