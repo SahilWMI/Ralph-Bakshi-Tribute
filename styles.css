@@ -24,7 +24,6 @@ h1 {
     font-family: Verdana, sans-serif;
     text-align: center;
     font-size: 0.9375rem;
-    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 1rem;
@@ -37,10 +36,4 @@ h2 {
 
 main {
     background-color: hsla(34, 57%, 70%, 0.133);
-}
-
-@media (max-width: 600px) {
-    #info-para {
-        max-width: 90%;
-    }
 }
